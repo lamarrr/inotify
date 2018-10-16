@@ -1,0 +1,2 @@
+/home/lamar/Documents/workspace/c++/project/inotify++/build/CMakeFiles/rebuild_cache.dir
+/home/lamar/Documents/workspace/c++/project/inotify++/build/CMakeFiles/edit_cache.dir
