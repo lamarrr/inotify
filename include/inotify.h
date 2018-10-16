@@ -179,4 +179,4 @@ class EventListener {
   ~EventListener() noexcept { this->StopAll(); }
 };
 
-};  // namespace inpp
+};  // namespace inotify
