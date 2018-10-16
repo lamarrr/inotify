@@ -65,7 +65,7 @@ class Error {
 
 class SystemError : public Error {
  public:
-  SystemError(const char *error_str) : Error(error_str) {}
+  explicit SystemError(const char *error_str) : Error(error_str) {}
 };
 
 class EventListener {
