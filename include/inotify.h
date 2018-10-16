@@ -33,7 +33,7 @@ limitations under the License.
 #ifdef NOTIF_DEBUG_MODE
 #define LOG(message) std::clog << "[Log] " << message << std::endl
 #else
-#define LOG(message) message
+#define LOG(message) 0
 #endif
 
 namespace inotify {
