@@ -139,7 +139,7 @@ class EventListener {
     const FileDescriptor file_desc = InitFileDescriptor_();
     if (file_desc < 0) throw SystemError("inotify_init error");
 
-    callback(notification::kModify, "a.cc");
+    // callback(notification::kModify, "a.cc");
     const WatchDescriptor watch_desc =
         InitWatchDescriptor_(path, file_desc, notif);
     std::thread *notif_thread_handle =
